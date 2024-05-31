@@ -12,7 +12,7 @@ body {
     width: 100%;
     background-image: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0)),
                       linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0)),
-                      url("prime-bgi-2.jpg");
+                      url("./prime-bgi-2.jpg");
     background-size: cover;
 }
 
