@@ -1,0 +1,91 @@
+* {
+    margin:0px;
+    padding:0px;
+    color:rgb(255, 255, 255);
+    font-family:sans-serif
+}
+body {
+    background-color: black;
+}
+.container {
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0)),
+                      linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0)),
+                      url("prime-bgi-2.jpg");
+    background-size: cover;
+}
+
+.container nav{
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;   
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 170px 0px 50px;
+}
+
+nav .nav-selectors select {
+    font-size: 15px;
+    background-color: transparent;
+    margin: 0px 10px 0px 10px;
+    padding: 4px 15px 4px 15px;
+    border: none;
+}
+
+nav .nav-right{
+    font-size: 15px;
+    background-color: transparent;
+    margin: 0px 10px 0px 100px;
+    padding: 4px 15px 4px 15px;
+    border: none;
+}
+nav .nav-right i {
+    font-size: 17px;
+}
+nav .nav-right input {
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+}
+nav .nav-right select {
+    font-size: 15px;
+    background-color: transparent;
+    margin: 0px 25px 0px 10px;
+    padding: 4px 9px 4px 9px;
+    border: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.content h1 {
+    margin: 340px 0px 10px 0px;
+    font-weight: 700;
+}
+.content h2 {
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+    font-weight: 50;
+    color:rgb(129, 129, 129);
+}
+
+.btn button {
+    height: 40px;
+    font-size: 15px;
+    margin: 19px 10px 1px 10px;
+    padding: 6px 15px 6px 15px;
+    background-color: rgb(88, 88, 255);
+    border-radius: 7px;
+    border: none;
+}
+.content span {
+    font-size: 15px;
+    font-weight: 800;
+}
